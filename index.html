@@ -1,38 +1,42 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>lightweight youtube embedding</title>
-        <link rel='stylesheet' href='style.css' type='text/css' media='screen' />
-        <style>
-		    /* only for index styling */
-			.flex-container {
-				margin: 0 auto;
-				display: flex;
-				display: -webkit-flex;
-			}
 
-			.wrapper {
-				position: relative;
-			}
-		</style>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-        <script src="youtube-player.js"></script>
-    </head>
-    <body>
-    	<div class="flex-container">
-        	<div class="wrapper">
-                <p>Video, 16:9 mit YouTube Vorschaubild</p>
-                <div class="youtube-player" data-id="iC3vvHHCUo0"></div>
-            </div>
-            <div class="wrapper">
-            	<p>Video, 16:9 mit eigenem Vorschaubild</p>
-            	<div class="youtube-player" data-id="EgWRO23ohK0" data-img="http://artanderror.net/vids/Videomasterslave.jpg"></div>
-            </div>
-            <div class="wrapper">
-            	<p>Video, 4:3 mit eigenem Vorschaubild</p>
-            <div class="youtube-player vier-zu-drei" data-id="1Z8gpZ4NCAo" data-img="http://artanderror.net/vids/april_april.jpg"></div>
-            </div>
+<head>
+    <meta charset="utf-8">
+    <title>lightweight youtube embedding</title>
+    <link rel='stylesheet' href='style.css' type='text/css' media='screen' />
+    <style>
+        /* only for index styling */
+
+        .flex-container {
+            margin: 0 auto;
+            display: flex;
+            display: -webkit-flex;
+        }
+
+        .wrapper {
+            position: relative;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="youtube-player.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="wrapper">
+            <p>Video, 16:9 mit YouTube Vorschaubild</p>
+            <div class="youtube-player" data-id="iC3vvHHCUo0"></div>
         </div>
-    </body>
+        <div class="wrapper">
+            <p>Video, 16:9 mit eigenem Vorschaubild</p>
+            <div class="youtube-player" data-id="EgWRO23ohK0" data-img="http://artanderror.net/vids/Videomasterslave.jpg"></div>
+        </div>
+        <div class="wrapper">
+            <p>Video, 4:3 mit eigenem Vorschaubild</p>
+            <div class="youtube-player vier-zu-drei" data-id="1Z8gpZ4NCAo" data-img="http://artanderror.net/vids/april_april.jpg"></div>
+        </div>
+    </div>
+</body>
+
 </html>
